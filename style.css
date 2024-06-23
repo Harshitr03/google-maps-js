@@ -113,16 +113,3 @@ body {
     border-color: rgba(189, 189, 189, 1);
     background-color: rgba(189, 189, 189, 1);
 }
-
-#mode-selector {
-    color: #fff;
-    background-color: #4d90fe;
-    margin-left: 12px;
-    padding: 5px 11px 0px 11px;
-}
-
-#mode-selector label {
-    font-family: Roboto;
-    font-size: 13px;
-    font-weight: 300;
-}
