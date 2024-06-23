@@ -1,0 +1,128 @@
+#map {
+    height: 100%;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#waypoint-adder {
+    background-color: rgba(189, 189, 189, 0.7);
+    color: #ffffff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    margin-top: 13px;
+    font-weight: 500;
+    margin-left: 12px;
+    border-radius: 50%;
+    border-color: rgba(189, 189, 189, 0.7);
+    display: inline-block;
+    cursor: pointer;
+}
+
+#div {
+    position: absolute;
+}
+
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#origin-input,
+#destination-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 200px;
+    position: relative;
+}
+
+#origin-input:focus,
+#destination-input:focus {
+    border-color: #4d90fe;
+}
+
+.controls2 {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 200px;
+    position: relative;
+}
+
+.controls2:focus {
+    border-color: #4d90fe;
+}
+
+.waypoint-substracter {
+    color: #ffffff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-color: rgba(189, 189, 189, 0.7);
+    margin-top: 13px;
+    font-weight: 500;
+    margin-left: 12px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: rgba(189, 189, 189, 0.7);
+}
+
+.controls3:hover {
+    border-color: rgba(189, 189, 189, 1);
+    background-color: rgba(189, 189, 189, 1);
+}
+
+#waypoint-adder:hover {
+    border-color: rgba(189, 189, 189, 1);
+    background-color: rgba(189, 189, 189, 1);
+}
+
+#mode-selector {
+    color: #fff;
+    background-color: #4d90fe;
+    margin-left: 12px;
+    padding: 5px 11px 0px 11px;
+}
+
+#mode-selector label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
